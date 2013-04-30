@@ -1294,7 +1294,7 @@ img {
     margin: auto;
   }
 }
-/* Define media-queies using 
+/* Define media-queries using named break points
 @include grid-media-query("palm") {
 	.top-beam { display: none; }
 }
