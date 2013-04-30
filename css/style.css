@@ -1,0 +1,22 @@
+/**
+ * Hacks
+ */
+/* Proposed removal of white space: https://github.com/dotnetCarpenter/white-space */
+.grid__item { white-space: none; }
+
+/**
+ * Site specific CSS
+ * I have organized the CSS top down, as in the first thing you see on the page is the first CSS here.
+ * This is not the best way to organize CSS but it should make it fairly easy to follow.
+ */
+.top-beam {
+	background-color: #661C2D;
+	height: 1.6875em;
+}
+
+.menu {
+	list-style: none;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 1px dotted #4C4C4C;
+	border-top: 1px dotted #4C4C4C;
+}
