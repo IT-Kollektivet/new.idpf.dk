@@ -17,7 +17,11 @@
 @import "_normalize";
 @import "../grid/csswizardry-grids";
 
-img { max-width: 100%;}
+img {
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
 /**
  * Utilities
  */

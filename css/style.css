@@ -4,6 +4,17 @@
 /* Proposed removal of white space: https://github.com/dotnetCarpenter/white-space */
 .grid__item { white-space: none; }
 
+/* Fix navigation alignment for the top menu on small screens */
+@media only screen and (max-width: 480px) {
+	.menu.center {
+		text-align: start;
+	}
+}
+
+/* Force word press elements to stay inside their container */
+.wp-caption { max-width: 100%; }
+
+
 /**
  * Navigation
  * inspired by http://csswizardry.com/2011/09/the-nav-abstraction/
@@ -18,6 +29,7 @@
            *display:inline;
             zoom:1;
     }
+
 
 /**
  * Site specific CSS
@@ -42,3 +54,9 @@
 	}
 	.menu a:hover { color: #222222; }
 	.current-menu-item a { color: #8A8C88;}
+
+.alignright {
+	float: right;
+}
+
+a { color: #84A374; }

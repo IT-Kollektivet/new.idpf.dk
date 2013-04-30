@@ -1236,7 +1236,9 @@ table {
  * Pull classes, to move grid items back to the left by certain amounts.
  */
 img {
+  height: auto;
   max-width: 100%;
+  width: auto;
 }
 
 /**
