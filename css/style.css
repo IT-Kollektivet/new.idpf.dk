@@ -36,8 +36,9 @@
 	.menu a {
 		color: #616B5B;
 		font-size: 1.125rem;
-		text-decoration: none;
 		padding: 0.1875rem 1.25rem;
+		text-decoration: none;
+		text-transform: uppercase;		
 	}
 	.menu a:hover { color: #222222; }
 	.current-menu-item a { color: #8A8C88;}
