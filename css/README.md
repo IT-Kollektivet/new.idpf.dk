@@ -2,9 +2,9 @@ CHEAT SHEET
 ===========
 ### Break points
 
-+ 'palm' '(max-width: 480px)',
-+ 'lap' '(min-width: 481px) and (max-width: 1023px)',
-+ 'portable' '(max-width: 1023px)',
++ 'palm' '(max-width: 480px)'
++ 'lap' '(min-width: 481px) and (max-width: 1023px)'
++ 'portable' '(max-width: 1023px)'
 + 'desk' '(min-width: 1024px)'
 
 ### Grid sizes
